@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Armored bear duel concept art</title>
+  <desc id="desc">Two cheerful bears in bogu sparring with katana and naginata inside a dramatic dojo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#1b2a3a" />
+      <stop offset="1" stop-color="#3e2b1f" />
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="760" fill="url(#bg)" />
+  <rect x="130" y="90" width="1140" height="580" rx="18" fill="#d8c7a2" opacity="0.18"/>
+  <circle cx="520" cy="350" r="160" fill="#7d5235"/>
+  <circle cx="880" cy="350" r="160" fill="#6f4930"/>
+  <circle cx="465" cy="250" r="34" fill="#7d5235"/>
+  <circle cx="575" cy="250" r="34" fill="#7d5235"/>
+  <circle cx="825" cy="250" r="34" fill="#6f4930"/>
+  <circle cx="935" cy="250" r="34" fill="#6f4930"/>
+  <ellipse cx="520" cy="370" rx="70" ry="56" fill="#f2dfc2"/>
+  <ellipse cx="880" cy="370" rx="70" ry="56" fill="#f2dfc2"/>
+  <rect x="420" y="390" width="200" height="175" rx="32" fill="#103f58"/>
+  <rect x="780" y="390" width="200" height="175" rx="32" fill="#4e1f24"/>
+  <line x1="620" y1="330" x2="810" y2="260" stroke="#f0f0f0" stroke-width="9"/>
+  <line x1="765" y1="450" x2="1085" y2="280" stroke="#efe6d0" stroke-width="11"/>
+  <line x1="1045" y1="302" x2="1128" y2="245" stroke="#efe6d0" stroke-width="15"/>
+  <text x="700" y="680" font-size="42" text-anchor="middle" fill="#fff4d7" font-family="Trebuchet MS, sans-serif">
+    Spring Exhibition Poster Concept
+  </text>
+</svg>
