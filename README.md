@@ -4,9 +4,9 @@
 This repository contains a lightweight static web project for Yushinkai content, with a primary landing page and a dedicated training page styled through a shared CSS file.
 
 ## Page descriptions
-- `index.html`: Main entry page for the site and high-level navigation.
-- `training.html`: Training-focused page for class/practice details and drill content.
-- `styles.css`: Global stylesheet shared by all pages.
+- `index.html`: Main entry page with hero content and top-header navigation to both pages.
+- `training.html`: Training-focused page with a long-form dojo philosophy story, drills, contact form, and top-header navigation back to the homepage.
+- `styles.css`: Global stylesheet shared by all pages, including background treatment and header navigation styling.
 - `images/*`: Image and icon assets consumed by pages/components.
 
 ## Local open instructions
@@ -14,7 +14,7 @@ Because this is a static site, you can open files directly in a browser or run a
 
 ### Option 1: Direct open
 1. Open `index.html` in your browser.
-2. Navigate to `training.html` using in-page links or direct file open.
+2. Navigate to `training.html` using the header navigation.
 
 ### Option 2: Local server (recommended)
 From the repository root:
