@@ -1,6 +1,13 @@
+
 # AGENTS.md
 
 ## Project file purposes (one line each)
+
+- `index.html`: Homepage with Yushinkai identity, hero, and kendo/naginata sections.
+- `images/hero-bear-duel.svg`: Main hero concept illustration used on the homepage.
+- `images/bg-dojo-texture.svg`: Background texture image used site-wide for atmosphere.
+- `images/kendo-bogu-stock.svg`: Stock-style decorative kendo-themed local image.
+- `images/naginata-stock.svg`: Stock-style decorative naginata-themed local image.
 - `index.html`: Main landing page that introduces Yushinkai content and links to training resources.
 - `training.html`: Dedicated training page for drills, schedules, and practice-specific guidance.
 - `styles.css`: Shared stylesheet for layout, typography, spacing, and reusable UI components.
