@@ -1,0 +1,88 @@
+:root {
+  color-scheme: light;
+  --bg: #f5f2ea;
+  --paper: #fffdf8;
+  --ink: #1d1f23;
+  --accent: #7a1212;
+  --line: #d8d0c4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+.page {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.hero {
+  border-bottom: 2px solid var(--line);
+  margin-bottom: 1.5rem;
+}
+
+h1,
+h2 {
+  color: var(--accent);
+}
+
+.subtitle,
+.helper {
+  color: #555;
+}
+
+.content {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+}
+
+.contact {
+  margin-top: 2rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+}
+
+.contact-form {
+  display: grid;
+  gap: 0.65rem;
+}
+
+label {
+  font-weight: 600;
+}
+
+input,
+select,
+textarea,
+button {
+  font: inherit;
+  padding: 0.55rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #bdb6ac;
+}
+
+button {
+  width: fit-content;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0.6rem 1rem;
+}
+
+button:hover {
+  filter: brightness(1.08);
+}
