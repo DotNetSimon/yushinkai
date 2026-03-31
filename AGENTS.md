@@ -1,16 +1,13 @@
-
 # AGENTS.md
 
 ## Project file purposes (one line each)
-
-- `index.html`: Homepage with Yushinkai identity, hero, and kendo/naginata sections.
+- `index.html`: Homepage with Yushinkai identity, hero content, and top-header navigation links.
+- `training.html`: Training page with dojo notes, long-form philosophy narrative, contact form, and top-header navigation links.
+- `styles.css`: Shared stylesheet for layout, typography, spacing, reusable UI components, and site-wide background treatment.
 - `images/hero-bear-duel.svg`: Main hero concept illustration used on the homepage.
 - `images/bg-dojo-texture.svg`: Background texture image used site-wide for atmosphere.
 - `images/kendo-bogu-stock.svg`: Stock-style decorative kendo-themed local image.
 - `images/naginata-stock.svg`: Stock-style decorative naginata-themed local image.
-- `index.html`: Main landing page that introduces Yushinkai content and links to training resources.
-- `training.html`: Dedicated training page for drills, schedules, and practice-specific guidance.
-- `styles.css`: Shared stylesheet for layout, typography, spacing, and reusable UI components.
 - `images/*`: Static visual assets (photos, icons, illustrations) referenced by HTML pages and documented with source credits.
 - `README.md`: Public project overview, page map, local usage instructions, and asset attribution.
 - `CLAUDE.md`: Contributor/agent workflow reference aligned to this repository's coding and process conventions.

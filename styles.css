@@ -7,7 +7,9 @@
   --outline: #d4c8b2;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -15,7 +17,7 @@ body {
   line-height: 1.6;
   color: var(--ink);
   background:
-    linear-gradient(rgba(18, 30, 42, 0.62), rgba(18, 30, 42, 0.62)),
+    linear-gradient(rgba(12, 20, 30, 0.78), rgba(12, 20, 30, 0.78)),
     url("images/bg-dojo-texture.svg") center/cover fixed;
 }
 
@@ -39,7 +41,30 @@ main {
   opacity: 0.88;
 }
 
-h1, h2 { line-height: 1.2; }
+h1,
+h2 {
+  line-height: 1.2;
+}
+
+.top-nav {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
+.top-nav a {
+  color: #fef9ef;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.top-nav a:hover,
+.top-nav a.active {
+  background: rgba(255, 255, 255, 0.18);
+}
 
 .hero {
   position: relative;
@@ -96,62 +121,28 @@ a:hover {
   content: " 🐻⚔️";
 }
 
-.training-page .rant {
-  margin-top: 1rem;
-  color-scheme: light;
-  --bg: #f5f2ea;
-  --paper: #fffdf8;
-  --ink: #1d1f23;
-  --accent: #7a1212;
-  --line: #d8d0c4;
+.training-layout {
+  padding-bottom: 2rem;
 }
 
-* {
-  box-sizing: border-box;
+.training-page .training-hero {
+  border-bottom: 2px solid var(--outline);
+  margin: 1.5rem 0 1rem;
+  color: #fef9ef;
 }
 
-body {
-  margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: var(--bg);
-  color: var(--ink);
-  line-height: 1.6;
-}
-
-.page {
-  max-width: 920px;
-  margin: 0 auto;
-  padding: 2rem 1.25rem 3rem;
-}
-
-.hero {
-  border-bottom: 2px solid var(--line);
-  margin-bottom: 1.5rem;
-}
-
-h1,
-h2 {
-  color: var(--accent);
-}
-
-.subtitle,
-.helper {
-  color: #555;
-}
-
-.content {
+.training-page .content,
+.training-page .contact {
   background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: 8px;
+  border: 1px solid var(--outline);
+  border-radius: 12px;
   padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
 }
 
-.contact {
-  margin-top: 2rem;
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 1rem 1.25rem;
+.training-page .subtitle,
+.training-page .helper {
+  color: rgba(255, 253, 248, 0.9);
 }
 
 .contact-form {
