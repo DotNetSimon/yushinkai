@@ -3,8 +3,11 @@
 ## Project file purposes (one line each)
 - `index.html`: Homepage with Yushinkai identity, hero content, and top-header navigation links.
 - `training.html`: Training page with dojo notes, long-form philosophy narrative, contact form, and top-header navigation links.
+- `bicycle-jousting.html`: April Fool's feature page for the fictional sport of Bicycle Jousting; includes animated SVG hero, sketch gallery, multi-discipline training rationale, requirements grid, and future-developments section.
 - `styles.css`: Shared stylesheet for layout, typography, spacing, reusable UI components, and site-wide background treatment.
 - `images/hero-bear-duel.svg`: Main hero concept illustration used on the homepage.
+- `images/bicycle-jouster-sketch.svg`: Hand-drawn-style sketch of a lone bicycle jouster, used in the bicycle-jousting page gallery.
+- `images/bicycle-jousting-charge.svg`: Animated SVG of two armoured cyclists charging each other; used as hero and gallery image on the bicycle-jousting page.
 - `images/bg-dojo-texture.svg`: Background texture image used site-wide for atmosphere.
 - `images/kendo-bogu-stock.svg`: Stock-style decorative kendo-themed local image.
 - `images/naginata-stock.svg`: Stock-style decorative naginata-themed local image.
