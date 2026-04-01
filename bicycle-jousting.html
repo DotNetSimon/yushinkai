@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bicycle Jousting — Yushinkai</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T15H61G9F0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-T15H61G9F0');
+  </script>
+  <style>
+    .jousting-hero-banner {
+      background: linear-gradient(135deg, #7a1f1f 0%, #2a3a8a 100%);
+      color: #fffdf8;
+      text-align: center;
+      padding: 1.5rem 1rem 1rem;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+      border: 2px solid var(--outline);
+    }
+    .jousting-hero-banner h2 {
+      color: #fffdf8;
+      font-size: 1.6rem;
+      margin: 0.25rem 0 0.5rem;
+    }
+    .jousting-hero-banner .banner-sub {
+      font-style: italic;
+      font-size: 0.95rem;
+      opacity: 0.88;
+      margin: 0;
+    }
+    .april-badge {
+      display: inline-block;
+      background: #d4af37;
+      color: #2a1a0a;
+      font-size: 0.72rem;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.2em 0.7em;
+      border-radius: 20px;
+      margin-bottom: 0.6rem;
+    }
+    .sketch-gallery {
+      display: flex;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 1rem 0;
+    }
+    .sketch-gallery figure {
+      margin: 0;
+      text-align: center;
+      flex: 1 1 280px;
+      max-width: 420px;
+    }
+    .sketch-gallery figure img {
+      width: 100%;
+      border-radius: 8px;
+      border: 1.5px solid var(--outline);
+      background: #fdf6e3;
+    }
+    .sketch-gallery figcaption {
+      font-size: 0.8rem;
+      color: #6a4a2a;
+      font-style: italic;
+      margin-top: 0.4rem;
+    }
+    .virtue-list {
+      padding-left: 1.2rem;
+    }
+    .virtue-list li {
+      margin-bottom: 0.55rem;
+      line-height: 1.5;
+    }
+    .virtue-list li strong {
+      color: var(--accent);
+    }
+    .future-card {
+      background: linear-gradient(135deg, rgba(42,58,138,0.08) 0%, rgba(143,45,45,0.08) 100%), rgba(255,255,255,0.9);
+      border-left: 6px solid #2a3a8a;
+    }
+    .disclaimer {
+      background: rgba(212,175,55,0.15);
+      border: 1px solid #d4af37;
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      font-size: 0.82rem;
+      text-align: center;
+      color: #5a4010;
+      margin-top: 2rem;
+    }
+    .disclaimer strong {
+      display: block;
+      font-size: 0.88rem;
+      margin-bottom: 0.2rem;
+    }
+    .cta-box {
+      text-align: center;
+      padding: 1.5rem;
+      background: linear-gradient(135deg, #f5f1e8, #fdf6e3);
+      border: 2px dashed var(--accent);
+      border-radius: 12px;
+      margin: 1rem 0;
+    }
+    .cta-box h3 {
+      color: var(--accent);
+      margin-top: 0;
+    }
+    .cta-box p {
+      margin: 0.4rem 0;
+    }
+    .requirements-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 0.8rem;
+      margin: 0.75rem 0;
+    }
+    .req-item {
+      background: rgba(255,255,255,0.7);
+      border: 1px solid var(--outline);
+      border-radius: 8px;
+      padding: 0.6rem 0.8rem;
+      font-size: 0.9rem;
+    }
+    .req-item .req-icon {
+      font-size: 1.3rem;
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+  </style>
+</head>
+<body class="training-page">
+  <header class="site-header">
+    <p class="eyebrow">Dojo of Delightful Discipline</p>
+    <h1>Yushinkai - Bear Spirit Society (勇心会)</h1>
+    <p class="tagline">Serious footing, serious form, and only a mildly suspicious amount of fur.</p>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="training.html">Training</a>
+      <a class="active" href="bicycle-jousting.html" aria-current="page">Bicycle Jousting</a>
+    </nav>
+  </header>
+
+  <main class="training-layout">
+
+    <div class="jousting-hero-banner">
+      <span class="april-badge">&#9733; Inaugural Announcement &#9733;</span>
+      <h2>Introducing: The Noble Art of Bicycle Jousting</h2>
+      <p class="banner-sub">Where the velodrome meets the tournament field. Where shin guards meet shin guards, again. <br>
+      The multi-discipline martial sport the world did not know it was waiting for.</p>
+    </div>
+
+    <!-- Animated charge illustration -->
+    <section class="hero" aria-label="Animated illustration of two bicycle jousters charging at each other">
+      <img src="images/bicycle-jousting-charge.svg"
+           alt="Two armoured cyclists charging at each other with jousting lances, animated" />
+      <div class="hero-note">
+        <p>Official Yushinkai demonstration footage (dramatisation).</p>
+      </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="card" id="introduction">
+      <h2>What Is Bicycle Jousting?</h2>
+      <p>
+        Bicycle jousting — known in elite circles as <em>vélo-jouterie</em>, and in accident reports
+        as <em>"how did you even manage that"</em> — is the breathtaking collision of two of humanity's
+        greatest inventions: the humble bicycle and the unnecessarily long wooden lance.
+      </p>
+      <p>
+        Two competitors mount their steeds (bicycles, though proposals for recumbent trikes are under
+        active review), don full armour, and charge at each other across a flat arena known as
+        the <strong>Liste Cyclique</strong>. Points are awarded for:
+      </p>
+      <ul class="virtue-list">
+        <li><strong>Lance contact</strong> — striking the opponent's shield, torso, or helmet with the tip of the lance.</li>
+        <li><strong>Dismount</strong> — causing the opponent to leave the saddle in a dignified arc.</li>
+        <li><strong>Style</strong> — judges award up to three points for what the scoring rubric formally terms "panache."</li>
+        <li><strong>Not falling off yourself</strong> — this is harder than it sounds.</li>
+      </ul>
+      <p>
+        The sport traces its origins to absolutely nowhere and was invented in a dojo car park in
+        approximately 2024 by a group of kendoka who had bicycles, disagreements, and insufficiently
+        supervised free time. It has since grown to encompass at least four committed practitioners
+        and a waiting list of curious onlookers.
+      </p>
+    </section>
+
+    <!-- Sketch gallery -->
+    <section class="card" id="sketches">
+      <h2>Field Studies &amp; Artist Impressions</h2>
+      <p>
+        Our in-house illustrators (one person, several cups of tea) have documented the sport's
+        essential forms. These technical diagrams are suitable for framing.
+      </p>
+      <div class="sketch-gallery">
+        <figure>
+          <img src="images/bicycle-jouster-sketch.svg"
+               alt="Sketch of a knight on a bicycle holding a jousting lance at full charge, with speed lines" />
+          <figcaption>Fig. 1 — The Bicycle Knight at full charge.<br>Note the aerodynamic lance grip and heroic plume.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/bicycle-jousting-charge.svg"
+               alt="Animated illustration: two armoured cyclists charge at each other from opposite sides of an arena" />
+          <figcaption>Fig. 2 — The moment of contact.<br>Red vs. Green. Honour vs. Honour. Bicycle vs. Bicycle.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Why martial artists should train this -->
+    <section class="card" id="multi-discipline">
+      <h2>The Unmistakable Virtues of Multi-Discipline Training</h2>
+      <p>
+        At Yushinkai, we have long maintained that the serious martial artist does not confine their
+        practice to a single domain. Kendo sharpens the mind. Naginata extends the reach. And
+        bicycle jousting — well, bicycle jousting <em>very much tests whether the mind and the reach
+        are correctly coordinated while moving at speed toward a determined opponent</em>.
+      </p>
+      <p>
+        Consider the profound synergies:
+      </p>
+      <ul class="virtue-list">
+        <li>
+          <strong>Balance and posture:</strong> Years of martial arts practice develop the core stability
+          required to stay upright on a bicycle while a person is actively trying to push you off it.
+          This is not a metaphor. It is a requirement.
+        </li>
+        <li>
+          <strong>Ma-ai (distance management):</strong> In kendo, understanding the interval between
+          practitioners is foundational. In bicycle jousting, that interval closes at approximately
+          25 km/h combined speed. The lessons transfer directly. The bruises confirm this.
+        </li>
+        <li>
+          <strong>Kiai and psychological dominance:</strong> A well-timed shout at the moment of
+          charge has been empirically shown to cause opponents to flinch, swerve, or in one
+          memorable case, simply stop pedalling and reconsider their choices.
+        </li>
+        <li>
+          <strong>Zanshin (lingering awareness):</strong> After the pass, the jouster must remain
+          alert. Spinning around on a bicycle with a lance is a skill set that traditional zanshin
+          practice did not anticipate but absolutely accommodates.
+        </li>
+        <li>
+          <strong>Cardio:</strong> Kendo does not involve cardio. Cycling does. This is therefore
+          an improvement. Sensei has been informed.
+        </li>
+      </ul>
+      <p>
+        Practitioners who train in both disciplines consistently report improvements in spatial
+        awareness, upper body strength, forward planning, and — crucially — the ability to
+        explain unusual injury patterns to medical professionals with a straight face.
+      </p>
+    </section>
+
+    <!-- Training requirements -->
+    <section class="card" id="training">
+      <h2>Joining the Bicycle Jousting Programme</h2>
+      <p>
+        Yushinkai's bicycle jousting track is open to all members who have completed at minimum
+        six months of kendo or naginata training. The following equipment and certifications are required
+        before your first competitive pass:
+      </p>
+      <div class="requirements-grid">
+        <div class="req-item">
+          <span class="req-icon">🪖</span>
+          <strong>Full bogu</strong><br>
+          Standard kendo armour. The men (helmet) is especially encouraged.
+        </div>
+        <div class="req-item">
+          <span class="req-icon">🚴</span>
+          <strong>Bicycle (any type)</strong><br>
+          Road bikes recommended. Penny-farthings accepted with a signed waiver.
+        </div>
+        <div class="req-item">
+          <span class="req-icon">⚔️</span>
+          <strong>Approved lance</strong><br>
+          3.2 metre bamboo or foam-tipped PVC. Carbon fibre lances pending committee review.
+        </div>
+        <div class="req-item">
+          <span class="req-icon">🦺</span>
+          <strong>Cycling helmet</strong><br>
+          Worn over the men, producing a distinctive layered-headgear silhouette.
+        </div>
+        <div class="req-item">
+          <span class="req-icon">🦵</span>
+          <strong>Shin guards (×2)</strong><br>
+          Standard kendo tare, plus an additional cycling-specific shin pad. Belt-and-suspenders philosophy.
+        </div>
+        <div class="req-item">
+          <span class="req-icon">📋</span>
+          <strong>Cycling proficiency cert.</strong><br>
+          Or demonstrated ability to ride in a straight line for 20 metres. We are flexible.
+        </div>
+      </div>
+      <p>
+        All beginners complete three foundational sessions: <em>Stationary Lance Holding</em>,
+        <em>Slow Cycling With Lance</em>, and <em>The Talk About Calling Out Before Charging</em>.
+        This last session is mandatory following Incident Report #3.
+      </p>
+    </section>
+
+    <!-- Future developments -->
+    <section class="card future-card" id="future">
+      <h2>The Future of the Sport — A Vision</h2>
+      <p>
+        Bicycle jousting is nascent. It is raw. It is, frankly, still working out whether
+        a scoring judge should stand to the side or considerably further to the side. But the
+        trajectory of the sport is clear, and those who join now will be able to say, in years
+        to come, that they were there at the beginning.
+      </p>
+      <p>
+        The Yushinkai Bicycle Jousting Development Committee (currently: three people and a
+        shared spreadsheet) has identified the following emerging frontiers:
+      </p>
+      <ul class="virtue-list">
+        <li>
+          <strong>eBousting™ — Electric Bicycle Jousting:</strong> The introduction of e-bikes
+          raises the approach speed dramatically, the stakes proportionally, and the insurance
+          premiums in ways we are still negotiating. eBousting promises a higher-velocity,
+          higher-drama format for elite competitors and those with no fear of consequences.
+        </li>
+        <li>
+          <strong>AI-Assisted Lance Targeting:</strong> Researchers at an unnamed university
+          (they have asked not to be named) are developing real-time trajectory analysis
+          software that predicts lance contact probability within 200 milliseconds of the
+          charge. Opponents will have 180 milliseconds to react. This seems fine.
+        </li>
+        <li>
+          <strong>Team Jousting — The Peloton Format:</strong> Multiple jousters charge
+          simultaneously in formation, with tactical lancing and rear-guard support riders
+          whose role is to "look after the situation." Team strategy documentation is in
+          progress. It currently consists of the word "charge" underlined twice.
+        </li>
+        <li>
+          <strong>Indoor Arena Jousting:</strong> Discussions are underway to bring bicycle
+          jousting indoors — into the dojo itself. This proposal has been tabled pending
+          agreement on what "tabled" means in this context and whether the walls are load-bearing.
+        </li>
+        <li>
+          <strong>Olympic Candidacy — 2032:</strong> A formal application to the International
+          Olympic Committee is planned. Initial enquiries have been met with silence, which
+          the committee is interpreting as thoughtful consideration. We are cautiously optimistic.
+          Brisbane 2032 has a lot of flat roads.
+        </li>
+        <li>
+          <strong>Bear-Mounted Jousting:</strong> A natural evolution for Yushinkai specifically,
+          given our founding imagery. Awaiting bear volunteers. Bears have so far not responded
+          to posted notices, but we remain open to interest.
+        </li>
+      </ul>
+      <p>
+        The sport of bicycle jousting stands at the intersection of heritage and velocity, of
+        ancient chivalric tradition and modern lightweight alloy frame geometry. It is, in the
+        truest sense, the martial art that cycling forgot it needed — and that cycling will,
+        once it has tried it, be very glad was remembered.
+      </p>
+    </section>
+
+    <!-- Call to action -->
+    <div class="cta-box">
+      <h3>Join the Liste Cyclique</h3>
+      <p>Interested in training? Taster sessions run on the first Saturday of each month.*</p>
+      <p>Equipment can be borrowed. Dignity must be supplied by the participant.</p>
+      <p style="margin-top:1rem;">
+        <a href="training.html#contact">Register your interest via the training enquiry form &rarr;</a>
+      </p>
+      <p style="font-size:0.8rem; margin-top:0.75rem; opacity:0.7;">
+        * Pending confirmation that this is a real programme.
+      </p>
+    </div>
+
+    <div class="disclaimer">
+      <strong>&#9733; April 1st Special Feature &#9733;</strong>
+      Bicycle jousting is not currently offered at Yushinkai. No bicycles have been harmed
+      in the production of this page. We do, however, genuinely believe it would be excellent,
+      and reserve the right to revisit this at a future committee meeting.
+      <br><br>
+      Yushinkai's <em>actual</em> wonderful sports — kendo and naginata — are very much real
+      and very much accepting new members. <a href="training.html">See the training page.</a>
+    </div>
+
+  </main>
+</body>
+</html>
